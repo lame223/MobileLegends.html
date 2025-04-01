@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Mobile Legends: Bang Bang</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #2b2d42;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.shop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shop-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.shop-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.shop-item:hover {
+    transform: scale(1.05);
+}
+
+.shop-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.shop-item h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.item-price {
+    font-size: 1.3em;
+    color: #2b2d42;
+    margin: 10px 0;
+}
+
+.item-description {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.add-to-cart {
+    background-color: #2b2d42;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #4a4e71;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2b2d42;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mobile Legends: Bang Bang Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="AndilloAtTanggote.html">Home</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shop-container">
+            <h2>Shop Items</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img src="yuzhong.jpg" alt="Skin 1">
+                    <h3>Collector - yu zhong</h3>
+                    <p class="item-price">$9.99</p>
+                    <p class="item-description">Get the exclusive Legendary Skin for your favorite hero, yuzhong.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="shop-item">
+                    <img src="balmond.jpg" alt="Skin 2">
+                    <h3>Epic Skin - balmond</h3>
+                    <p class="item-price">$5.99</p>
+                    <p class="item-description">Unlock the Epic Skin for banana and show off in the battlefield.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="shop-item">
+                    <img src="lylia2.jpg" alt="Hero 1">
+                    <h3>New Hero - lylia</h3>
+                    <p class="item-price">$12.99</p>
+                    <p class="item-description">Unlock the latest hero and dominate your matches with lylia.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="shop-item">
+                    <img src="xborg2.jpg" alt="Skin 3">
+                    <h3>Special Edition Skin</h3>
+                    <p class="item-price">$6.99</p>
+                    <p class="item-description">A limited-time Special Edition Skin, only available for a short time.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="shop-item">
+                    <img src="alucard2.jpg" alt="Skin 2">
+                    <h3>Epic Skin - alucard</h3>
+                    <p class="item-price">$99.99</p>
+                    <p class="item-description">Unlock the Epic Skin for alucard and show off in the battlefield.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mobile Legends News. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
